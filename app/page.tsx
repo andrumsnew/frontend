@@ -8,7 +8,8 @@ export default function LoginPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    alert(`Email: ${email}\nPassword: ${password}`)
+    // Redirigir al dashboard (luego validaremos con backend)
+    window.location.href = '/dashboard'
   }
 
   return (
